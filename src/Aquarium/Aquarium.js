@@ -43,13 +43,11 @@ class Aquarium extends Component {
 
       return (            
           <div className="aquarium" style={{...this.state}}>
-          {/*}
               <Fish image={fish1} />
               <Fish image={fish2} />
               <Fish image={fish3} />
               <Fish image={fish4} />
               <Fish image={fish5} />
-          */}
               <div className='water'></div>
               {diplayBubble}          
           </div>

@@ -39,34 +39,34 @@ export default class Home extends Component {
               <div className="skills">
                 <h2 className="white">Skills</h2>
                 <strong>C/C++</strong>
-                <span className="float-right">90%</span>
+                <span className="float-right">92%</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{width: '90%'}}></div>
+                                aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style={{width: '92%'}}></div>
                   </div>
                 <strong>MySQL</strong>
-                <span className="float-right">90%</span>
+                <span className="float-right">92%</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{width: '90%'}}></div>
+                                aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style={{width: '92%'}}></div>
                   </div>
                 <strong>Java</strong>
-                <span className="float-right">70%</span>
+                <span className="float-right">91%</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width: '70%'}}></div>
+                                aria-valuenow="91" aria-valuemin="0" aria-valuemax="100" style={{width: '91%'}}></div>
                   </div>
                 <strong>Javascript/Framework/React</strong>
-                <span className="float-right">70%</span>
+                <span className="float-right">96%</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width: '70%'}}></div>
+                                aria-valuenow="96" aria-valuemin="0" aria-valuemax="100" style={{width: '96%'}}></div>
                   </div>
                 <strong>C#/ASP.NET</strong>
-                <span className="float-right">50%</span>
+                <span className="float-right">97%</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style={{width: '50%'}}></div>
+                                aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style={{width: '97%'}}></div>
                   </div>
                 <strong>Adobe Photoshop/Illustrator</strong>
                 <span className="float-right">85%</span>
@@ -86,11 +86,23 @@ export default class Home extends Component {
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
                                 aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '0%'}}></div>
                   </div>
-                <strong>iPhone/Android Development</strong>
+                <strong>iPhone Development</strong>
                 <span className="float-right">0%</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
                                 aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '0%'}}></div>
+                  </div>
+                <strong>Android Development</strong>
+                <span className="float-right">99%</span>
+                  <div className="progress">
+                    <div className="progress-bar progress-bar-primary" role="progressbar" 
+                                aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" style={{width: '99%'}}></div>
+                  </div>
+                <strong>Mobile Web Development</strong>
+                <span className="float-right">100%</span>
+                  <div className="progress">
+                    <div className="progress-bar progress-bar-primary" role="progressbar" 
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
                   </div>
               </div>
             </div>
@@ -149,11 +161,11 @@ export default class Home extends Component {
                     <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/Work')}>Adobe Photoshop</Button>
                     <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/Work')}>Adobe illustrator</Button>
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.location = "https://trui-git.github.io/recipe/")}>Javascript Framework</Button>
-                    <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/work')}>PHP programming</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.location = "https://computershop01.000webhostapp.com/")}>PHP programming</Button>
                     <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/work')}>Python programming</Button>
-                    <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/work')}>Android Develepment</Button>
-                    <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/work')}>iPhone development</Button>
-                    <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/work')}>Mobile Web Development</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.location = "https://play.google.com/store/apps/details?id=com.trios.EasyLiving")}>Android Develepment</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/Ios')}>iPhone development</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.location = "https://play.google.com/store/apps/details?id=com.trios.smrt")}>Mobile Web Development</Button>
                     <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/work')}>Linux Apache Development</Button>
                   </div>
               </div>
