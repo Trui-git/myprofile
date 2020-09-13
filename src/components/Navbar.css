@@ -1,0 +1,22 @@
+NAV {
+    max-height: 150px;
+}
+
+.navset {
+    margin-right: 5px;
+    font-size: x-large;
+    font-weight: bold;
+    color:black !important;
+}
+
+.navset:hover{
+    color: rgb(124, 49, 84) !important;
+  }
+
+.icon{
+  background-image: url(./../images/home.png);
+  background-size: cover;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}

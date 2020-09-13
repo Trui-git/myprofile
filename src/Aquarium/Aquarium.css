@@ -1,0 +1,32 @@
+.aquarium {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* nice water gradient */
+   
+    margin: 0;
+    padding: 0;
+}
+
+img.fish {
+    position: absolute;
+    height: 28px;
+    width: 49px;
+    left: 0;
+    top: 0;
+  }
+  
+  .water {
+    background: linear-gradient(to top, #348F50 , #56B4D3);
+    /*opacity: 0.5;*/
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  

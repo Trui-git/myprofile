@@ -1,0 +1,45 @@
+To run program:
+cd D:\Web\Jquery\React\personalprofile
+npm start
+
+
+Deploy APP to github
+https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
+https://www.youtube.com/watch?v=1wDzEjXbblM
+github cannot eat .net app and SQL database, and has problem with react-router-dom
+
+
+
+Deploy to Microsoft Azure
+1. open one year free account and login into Azure portal
+https://portal.azure.com/#home
+
+2. publish APP and deploy to Azure
+folow this site : https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase
+
+3. publish your SQL database to Azure 
+follow this site: https://www.progress.com/documentation/sitefinity-cms/deploy-the-database-to-azure-sql
+
+4. connect APP and SQL using Azure portal
+follow this site : https://www.edureka.co/community/13929/how-can-we-connect-azure-web-app-to-an-azure-sql-database
+and seeting onnectivity: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connectivity-settings
+
+5. youtube guideline
+https://www.youtube.com/watch?v=Yepa1SrNjCc
+1). test connectivity between SQL database in micorosoft Azure and local maschine with visual studio
+2). publish APP again with tested connecting string and deploy to Azure
+
+
+deploy to netlify:
+1. npm install netlify-cli -g
+2. netlify deploy 
+   netlify deploy --prod
+3. change  this for React router dom
+in public/_redirects
+add
+/*  /index.html  200
+
+
+
+React-router-dom learning page:
+https://www.youtube.com/watch?v=Law7wfdg_ls
