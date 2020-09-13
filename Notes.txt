@@ -3,6 +3,10 @@ cd D:\Web\Jquery\React\personalprofile
 npm start
 
 
+To deploy to github
+push latest code to git: git push -u origin master or using source tree
+npm run deploy
+
 Deploy APP to github
 https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
 https://www.youtube.com/watch?v=1wDzEjXbblM
