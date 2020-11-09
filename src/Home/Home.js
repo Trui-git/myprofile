@@ -74,12 +74,6 @@ export default class Home extends Component {
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
                                 aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{width: '85%'}}></div>
                   </div>
-                <strong>Python</strong>
-                <span className="float-right">15%</span>
-                  <div className="progress">
-                    <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style={{width: '15%'}}></div>
-                  </div>
                 <strong>Linux and Apache</strong>
                 <span className="float-right">0%</span>
                   <div className="progress">
@@ -103,6 +97,18 @@ export default class Home extends Component {
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
                                 aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
+                  </div>
+                <strong>Android Tablet Development</strong>
+                <span className="float-right">100%</span>
+                  <div className="progress">
+                    <div className="progress-bar progress-bar-primary" role="progressbar" 
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
+                  </div>
+                <strong>Python Development</strong>
+                <span className="float-right">95%</span>
+                  <div className="progress">
+                    <div className="progress-bar progress-bar-primary" role="progressbar" 
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{width: '95%'}}></div>
                   </div>
               </div>
             </div>
@@ -166,6 +172,8 @@ export default class Home extends Component {
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.location = "https://play.google.com/store/apps/details?id=com.trios.EasyLiving")}>Android Develepment</Button>
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/Ios')}>iPhone development</Button>
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.location = "https://play.google.com/store/apps/details?id=com.trios.smrt")}>Mobile Web Development</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.location = "https://play.google.com/store/apps/details?id=com.trios.gradetracker")}>Android Tablet Development</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.location = "https://moviemicheroku.herokuapp.com/")}>Python Development</Button>
                     <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/work')}>Linux Apache Development</Button>
                   </div>
               </div>
