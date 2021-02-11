@@ -37,78 +37,78 @@ export default class Home extends Component {
             </div>
             <div className="col-md-6 col-sm-12">
               <div className="skills">
-                <h2 className="white">Skills</h2>
+                <h5 className="white">Programming languages learned from triOS</h5>
                 <strong>C/C++</strong>
-                <span className="float-right">92%</span>
+                <span className="float-right">Done</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style={{width: '92%'}}></div>
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
                   </div>
                 <strong>MySQL</strong>
-                <span className="float-right">92%</span>
+                <span className="float-right">Done</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style={{width: '92%'}}></div>
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
                   </div>
                 <strong>Java</strong>
-                <span className="float-right">91%</span>
+                <span className="float-right">Done</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="91" aria-valuemin="0" aria-valuemax="100" style={{width: '91%'}}></div>
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
                   </div>
                 <strong>Javascript/Framework/React</strong>
-                <span className="float-right">96%</span>
+                <span className="float-right">Done</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="96" aria-valuemin="0" aria-valuemax="100" style={{width: '96%'}}></div>
-                  </div>
-                <strong>C#/ASP.NET</strong>
-                <span className="float-right">97%</span>
-                  <div className="progress">
-                    <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style={{width: '97%'}}></div>
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
                   </div>
                 <strong>Adobe Photoshop/Illustrator</strong>
-                <span className="float-right">85%</span>
+                <span className="float-right">Done</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{width: '85%'}}></div>
-                  </div>
-                <strong>Linux and Apache</strong>
-                <span className="float-right">0%</span>
-                  <div className="progress">
-                    <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '0%'}}></div>
-                  </div>
-                <strong>iPhone Development</strong>
-                <span className="float-right">0%</span>
-                  <div className="progress">
-                    <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '0%'}}></div>
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
                   </div>
                 <strong>Android Development</strong>
-                <span className="float-right">99%</span>
+                <span className="float-right">Done</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" style={{width: '99%'}}></div>
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
                   </div>
                 <strong>Mobile Web Development</strong>
-                <span className="float-right">100%</span>
+                <span className="float-right">Done</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
                   </div>
                 <strong>Android Tablet Development</strong>
-                <span className="float-right">100%</span>
+                <span className="float-right">Done</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
                   </div>
                 <strong>Python Development</strong>
-                <span className="float-right">95%</span>
+                <span className="float-right">Done</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
-                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{width: '95%'}}></div>
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
+                  </div>
+                <strong>C#/ASP.NET</strong>
+                <span className="float-right">On Going</span>
+                  <div className="progress">
+                    <div className="progress-bar progress-bar-primary" role="progressbar" 
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
+                  </div>
+                  <strong>Linux and Apache</strong>
+                <span className="float-right">On Going</span>
+                  <div className="progress">
+                    <div className="progress-bar progress-bar-primary" role="progressbar" 
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
+                  </div>
+                <strong>iPhone Development</strong>
+                <span className="float-right">On Going</span>
+                  <div className="progress">
+                    <div className="progress-bar progress-bar-primary" role="progressbar" 
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
                   </div>
               </div>
             </div>
@@ -135,8 +135,9 @@ export default class Home extends Component {
               <div className="languages">
                 <h2>Languages</h2>
                   <ul>               
-                    <li>English</li>
-                    <li>Chinese</li>               
+                    <li>English --  Fluent</li>
+                    <li>German  --  Fluent, speaking moderate </li>  
+                    <li>Chinese --  Native</li>              
                   </ul>
               </div>
             </div>
@@ -159,21 +160,20 @@ export default class Home extends Component {
                 <h2 className="white">School Projects</h2>
                   <div className="experience-content">
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/Aquarium')}>React Framework</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.location = "https://rui-javascript.netlify.app")}>Javascript</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://rui-javascript.netlify.app"))}>Javascript</Button>
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/Java')}>Java</Button>
                     <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/Work')}>C/C++</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() =>  (window.location = "https://petwalksite20200506100905.azurewebsites.net/")}>SQL</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.location = "https://moviemaven00.azurewebsites.net/")}>C#/Asp.net</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() =>  (window.open("https://petwalksite20200506100905.azurewebsites.net/"))}>SQL</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://moviemaven00.azurewebsites.net/"))}>C#/Asp.net</Button>
                     <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/Work')}>Adobe Photoshop</Button>
                     <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/Work')}>Adobe illustrator</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.location = "https://trui-git.github.io/recipe/")}>Javascript Framework</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.location = "https://computershop01.000webhostapp.com/")}>PHP programming</Button>
-                    <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/work')}>Python programming</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.location = "https://play.google.com/store/apps/details?id=com.trios.EasyLiving")}>Android Develepment</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://ruiteng2021.github.io/recipe/"))}>Javascript Framework</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://computershop01.000webhostapp.com/"))}>PHP programming</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://play.google.com/store/apps/details?id=com.trios.EasyLiving"))}>Android Develepment</Button>
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/Ios')}>iPhone development</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.location = "https://play.google.com/store/apps/details?id=com.trios.smrt")}>Mobile Web Development</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.location = "https://play.google.com/store/apps/details?id=com.trios.gradetracker")}>Android Tablet Development</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.location = "https://moviemicheroku.herokuapp.com/")}>Python Development</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://play.google.com/store/apps/details?id=com.trios.smrt"))}>Mobile Web Development</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://play.google.com/store/apps/details?id=com.trios.gradetracker"))}>Android Tablet Development</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://moviemicheroku.herokuapp.com/"))}>Python Development</Button>
                     <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/work')}>Linux Apache Development</Button>
                   </div>
               </div>
