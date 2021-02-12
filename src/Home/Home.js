@@ -159,9 +159,9 @@ export default class Home extends Component {
               <div className="experience">
                 <h2 className="white">School Projects</h2>
                   <div className="experience-content">
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => window.open('/#/Aquarium')}>React Framework</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => window.open('#/Aquarium')}>React Framework</Button>
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://rui-javascript.netlify.app"))}>Javascript</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => window.open('/#/Java')}>Java</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => window.open('#/Java')}>Java</Button>
                     <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/Work')}>C/C++</Button>
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() =>  (window.open("https://petwalksite20200506100905.azurewebsites.net/"))}>SQL</Button>
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://moviemaven00.azurewebsites.net/"))}>C#/Asp.net</Button>
@@ -170,7 +170,7 @@ export default class Home extends Component {
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://ruiteng2021.github.io/recipe/"))}>Javascript Framework</Button>
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://computershop01.000webhostapp.com/"))}>PHP programming</Button>
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://play.google.com/store/apps/details?id=com.trios.EasyLiving"))}>Android Develepment</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => window.open('/#/Ios')}>iPhone development</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => window.open('#/Ios')}>iPhone development</Button>
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://play.google.com/store/apps/details?id=com.trios.smrt"))}>Mobile Web Development</Button>
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://play.google.com/store/apps/details?id=com.trios.gradetracker"))}>Android Tablet Development</Button>
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://moviemicheroku.herokuapp.com/"))}>Python Development</Button>
