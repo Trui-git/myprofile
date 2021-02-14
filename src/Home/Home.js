@@ -465,7 +465,7 @@ export default class Home extends Component {
             </div>
             <div className="col-md-4 col-sm-12">
               <div className="languages">
-                <h2>Hacker Rank Badges</h2>
+                <h2>HackerRank Badges</h2>
                   <div className="site">
                     <Button className="backgroundImg hackerrank" onClick={() => window.open('https://www.hackerrank.com/tengrui13?hr_r=1')}></Button>
                   </div> 
