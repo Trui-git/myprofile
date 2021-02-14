@@ -157,7 +157,7 @@ export default class Home extends Component {
             </div>
             <div className="col-md-8 col-sm-12">
               <div className="experience">
-                <h2 className="white">School Projects</h2>
+                <h2 className="white">School Project Sites</h2>
                   <div className="experience-content">
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => window.open('#/Aquarium')}>React Framework</Button>
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://rui-javascript.netlify.app"))}>Javascript</Button>
@@ -174,6 +174,8 @@ export default class Home extends Component {
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://play.google.com/store/apps/details?id=com.trios.smrt"))}>Mobile Web Development</Button>
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://play.google.com/store/apps/details?id=com.trios.gradetracker"))}>Android Tablet Development</Button>
                     <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://moviemicheroku.herokuapp.com/"))}>Python Development</Button>
+                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://tvninjawasm.web.app/"))}>Blazor WASM</Button>
+                    <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://tvninjawasm.web.app/"))}>Dotnet Core5 Razor</Button>
                     <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/work')}>Linux Apache Development</Button>
                   </div>
               </div>
