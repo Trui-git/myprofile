@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/myprofile/static/css/main.2a90aa66.chunk.css",
-    "main.js": "/myprofile/static/js/main.111de435.chunk.js",
-    "main.js.map": "/myprofile/static/js/main.111de435.chunk.js.map",
+    "main.css": "/myprofile/static/css/main.b72e52da.chunk.css",
+    "main.js": "/myprofile/static/js/main.76dc16ba.chunk.js",
+    "main.js.map": "/myprofile/static/js/main.76dc16ba.chunk.js.map",
     "runtime-main.js": "/myprofile/static/js/runtime-main.09f72a3a.js",
     "runtime-main.js.map": "/myprofile/static/js/runtime-main.09f72a3a.js.map",
     "static/css/2.da930a91.chunk.css": "/myprofile/static/css/2.da930a91.chunk.css",
     "static/js/2.94a3b790.chunk.js": "/myprofile/static/js/2.94a3b790.chunk.js",
     "static/js/2.94a3b790.chunk.js.map": "/myprofile/static/js/2.94a3b790.chunk.js.map",
     "index.html": "/myprofile/index.html",
-    "precache-manifest.a319f7a984fd83f2641d6c789c9120ca.js": "/myprofile/precache-manifest.a319f7a984fd83f2641d6c789c9120ca.js",
+    "precache-manifest.94ea9404ce74d3e5401ef5eb5017b71d.js": "/myprofile/precache-manifest.94ea9404ce74d3e5401ef5eb5017b71d.js",
     "service-worker.js": "/myprofile/service-worker.js",
     "static/css/2.da930a91.chunk.css.map": "/myprofile/static/css/2.da930a91.chunk.css.map",
-    "static/css/main.2a90aa66.chunk.css.map": "/myprofile/static/css/main.2a90aa66.chunk.css.map",
+    "static/css/main.b72e52da.chunk.css.map": "/myprofile/static/css/main.b72e52da.chunk.css.map",
     "static/js/2.94a3b790.chunk.js.LICENSE.txt": "/myprofile/static/js/2.94a3b790.chunk.js.LICENSE.txt",
     "static/media/IOS_project.mp4": "/myprofile/static/media/IOS_project.71d936e2.mp4",
-    "static/media/Home.css": "/myprofile/static/media/ProximaNova-Regular.bf9f5d50.otf",
+    "static/media/Home.css": "/myprofile/static/media/warsim.2b2e9322.png",
     "static/media/TCBTH1535551.jpg": "/myprofile/static/media/TCBTH1535551.6db4a5f9.jpg",
     "static/media/giphy2.gif": "/myprofile/static/media/giphy2.ecf98de6.gif",
     "static/media/giphy3.gif": "/myprofile/static/media/giphy3.8d7973ab.gif",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.09f72a3a.js",
     "static/css/2.da930a91.chunk.css",
     "static/js/2.94a3b790.chunk.js",
-    "static/css/main.2a90aa66.chunk.css",
-    "static/js/main.111de435.chunk.js"
+    "static/css/main.b72e52da.chunk.css",
+    "static/js/main.76dc16ba.chunk.js"
   ]
 }
