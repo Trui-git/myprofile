@@ -233,3 +233,199 @@ footer {
     font-size: 20px;
   }
 }
+
+/*************************************
+Build the scene and rotate on hover
+**************************************/
+
+.scene {
+	width: 130px;
+	height: 180px;
+	margin: 30px;
+	float: left;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	perspective: 1000px;
+}
+
+.project {
+	width: 130px;
+	height: 180px;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform: translateZ(-110px);
+	-moz-transform: translateZ(-110px);
+	transform: translateZ(-110px);
+	-webkit-transition: -webkit-transform 350ms;
+	-moz-transition: -moz-transform 350ms;
+	transition: transform 350ms;
+}
+
+.project:hover {
+	-webkit-transform: rotateY(-82deg) translateZ(20px);
+	-moz-transform: rotateY(-82deg) translateZ(20px);
+	transform: rotateY(-82deg) translateZ(20px);
+}
+
+/*************************************
+Transform and style the two planes
+**************************************/
+
+.project .title {
+	position: absolute;
+	width: 130px;
+	height: 180px;
+	background-color: #fff;
+	opacity: 0.8;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+    box-shadow: -2px -2px 7px 0 rgba(99, 99, 99, 0.55), 4px 4px 9px 0 rgba(0, 0, 0, 0.83);
+}
+
+.project .links {
+	position: absolute;
+	width: 130px;
+	height: 180px;
+	background-color: #fff;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	box-shadow: -2px -2px 7px 0 rgba(99, 99, 99, 0.55), 4px 4px 9px 0 rgba(0, 0, 0, 0.83);
+}
+
+
+
+.project .title  {
+	-webkit-transform: translateZ(70px);
+	-moz-transform: translateZ(70px);
+	transform: translateZ(70px);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.project .links {
+	-webkit-transform: rotateY(87deg) translateZ(70px);
+	-moz-transform: rotateY(87deg) translateZ(70px);
+	transform: rotateY(87deg) translateZ(70px);
+	border: 1px solid #B8B5B5;
+	font-size: 0.75em;
+}
+
+
+
+/*************************************
+project links information
+**************************************/
+
+.links .site {
+	color: #FFF;
+	height: 80px;
+	text-shadow: 0px 1px 1px rgba(0,0,0,1);
+}
+
+.links p{
+  text-align: center;
+	padding: 1.2em 1.4em;
+	font-weight: 700;
+	color: #666;
+	line-height: 1.4em;
+	border-top: 5px solid #555;
+}
+
+.links p a:link{
+  color: #666;
+}
+
+.links p a:visited{
+  color: #666;
+}
+
+.title p{
+	padding: 1.2em 1.4em;
+	margin: 2px 0 0;
+	font-weight: 700;
+	color: #666;
+  font-size: small;
+	line-height: 1.4em;
+}
+.project .title,
+.project .links,
+.project .links .site {
+	-webkit-transition: box-shadow 350ms;
+	-moz-transition: box-shadow 350ms;
+	transition: box-shadow 350ms;
+}
+
+.backgroundImg {
+  width: 100%;
+  height: 80px;
+  border-radius: 0%;
+  border: 0px;
+  background-size: cover;
+}
+
+.aqurium{
+  background-image: url(../images/aquarium.png);
+}
+
+.game {
+  background-image: url(../images/game.png);
+}
+
+.warsim{
+  background-image: url(../images/warsim.png);
+}
+
+.computershop{
+  background-image: url(../images/computershop.png);
+}
+
+.businessnotes{
+  background-image: url(../images/businessbotespng.png);
+}
+
+.tvmaven{
+  background-image: url(../images/tvmaven.png);
+}
+
+.tvninja{
+  background-image: url(../images/tvninja.png);
+}
+
+.cryptocanuck{
+  background-image: url(../images/cryptocanuck.png);
+}
+
+.easyliving{
+  background-image: url(../images/easyliving.png);
+}
+
+.easylivingposter{
+  background-image: url(../images/easylivingposter.png);
+  opacity: 1 !important;
+}
+
+.smrt{
+  background-image: url(../images/smrt.jpg);
+}
+
+.smrtposter{
+  background-image: url(../images/smrtposter.png);
+  opacity: 1 !important;
+}
+
+.gradtracker{
+  background-image: url(../images/gradtracker.png);
+}
+
+.gradtrackerposter{
+  background-image: url(../images/gradtrackerposter.png);
+  opacity: 1 !important;
+}
+
+.hackerrank{
+  background-image: url(../images/hackerrank.png);
+  height: 100px;
+}

@@ -159,30 +159,322 @@ export default class Home extends Component {
               <div className="experience">
                 <h2 className="white">School Project Sites</h2>
                   <div className="experience-content">
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => window.open('#/Aquarium')}>React Framework</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://rui-javascript.netlify.app"))}>Javascript</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => window.open('#/Java')}>Java</Button>
-                    <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/Work')}>C/C++</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() =>  (window.open("https://petwalksite20200506100905.azurewebsites.net/"))}>SQL</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://moviemaven00.azurewebsites.net/"))}>C#/Asp.net</Button>
-                    <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/Work')}>Adobe Photoshop</Button>
-                    <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/Work')}>Adobe illustrator</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://ruiteng2021.github.io/recipe/"))}>Javascript Framework</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://computershop01.000webhostapp.com/"))}>PHP programming</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://play.google.com/store/apps/details?id=com.trios.EasyLiving"))}>Android Develepment</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => window.open('#/Ios')}>iPhone development</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://play.google.com/store/apps/details?id=com.trios.smrt"))}>Mobile Web Development</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://play.google.com/store/apps/details?id=com.trios.gradetracker"))}>Android Tablet Development</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://moviemicheroku.herokuapp.com/"))}>Python Development</Button>
-                    <Button className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://tvninjawasm.web.app/"))}>Blazor WASM</Button>
-                    <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => (window.open("https://tvninjawasm.web.app/"))}>Dotnet Core5 Razor</Button>
-                    <Button disabled={!this.state.value} className="diagButton" variant="btn btn-secondary" onClick={() => history.push('/work')}>Linux Apache Development</Button>
+
+                    <div className="scene">
+                      <div className="project">
+                        <div className="title">
+                          <p>Project Name: Aquarium</p>
+                          <p>Created with : ReactJS</p>
+                        </div>
+                        <div className="links">
+                            <div className="site">
+                              <Button className="backgroundImg aqurium" onClick={() => window.open('#/Aquarium')}>Site Demo</Button>
+                            </div>                          
+                            <p>
+                              <a href="https://github.com/ruiteng2021/myprofile/tree/master/src" target="_blank">Source Code</a>
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="scene">
+                      <div className="project">
+                        <div className="title">
+                          <p>Project Name: Game</p>
+                          <p>Created with : Javascript</p>
+                        </div>
+                        <div className="links">
+                            <div className="site">
+                              <Button className="backgroundImg game" onClick={() => window.open('https://rui-javascript.netlify.app')}>Site Demo</Button>
+                            </div>                          
+                            <p>
+                              <a>Under Construction</a>
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="scene">
+                      <div className="project">
+                        <div className="title">
+                          <p>Project Name: War Simulation</p>
+                          <p>Created with : Java</p>
+                        </div>
+                        <div className="links">
+                            <div className="site">
+                              <Button className="backgroundImg warsim" onClick={() => window.open('#/Java')}>Site Demo</Button>
+                            </div>                          
+                            <p>
+                              <a>Under Construction</a>
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="scene">
+                      <div className="project">
+                        <div className="title">
+                          <p>Project Name: Shopping Cart</p>
+                          <p>Created with : C/C++</p>
+                        </div>
+                        <div className="links">
+                            <div className="site">
+                              <Button disabled={!this.state.value} className="backgroundImg" onClick={() => window.open('#/Java')}>Site Demo</Button>
+                            </div>                          
+                            <p>
+                              <a>Under Construction</a>
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="scene">
+                      <div className="project">
+                        <div className="title">
+                          <p>Project Name: Pet Walk</p>
+                          <p>Created with : Microsoft Razor/MSSQL</p>
+                        </div>
+                        <div className="links">
+                            <div className="site">
+                              <Button disabled={!this.state.value} className="backgroundImg" onClick={() => window.open('https://petwalksite20200506100905.azurewebsites.net/')}>Site Demo</Button>
+                            </div>                          
+                            <p>
+                              <a>Under Construction</a>
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="scene">
+                      <div className="project">
+                        <div className="title">
+                          <p>Project Name: Movie Maven</p>
+                          <p>Created with : C#/Asp.net</p>
+                        </div>
+                        <div className="links">
+                            <div className="site">
+                              <Button disabled={!this.state.value} className="backgroundImg" onClick={() => window.open('https://moviemaven00.azurewebsites.net/')}>Site Demo</Button>
+                            </div>                          
+                            <p>
+                              <a>Under Construction</a>
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="scene">
+                      <div className="project">
+                        <div className="title">
+                          <p>Project Name: Website Mockup</p>
+                          <p>Created with : Adobe Photoshop</p>
+                        </div>
+                        <div className="links">
+                            <div className="site">
+                              <Button disabled={!this.state.value} className="backgroundImg" onClick={() => window.open('https://moviemaven00.azurewebsites.net/')}>Site Demo</Button>
+                            </div>                          
+                            <p>
+                              <a>Under Construction</a>
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="scene">
+                      <div className="project">
+                        <div className="title">
+                          <p>Project Name: Icons</p>
+                          <p>Created with : Adobe Illustrator</p>
+                        </div>
+                        <div className="links">
+                            <div className="site">
+                              <Button disabled={!this.state.value} className="backgroundImg" onClick={() => window.open('https://moviemaven00.azurewebsites.net/')}>Site Demo</Button>
+                            </div>                          
+                            <p>
+                              <a>Under Construction</a>
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="scene">
+                      <div className="project">
+                        <div className="title">
+                          <p>Project Name: Recipe</p>
+                          <p>Created with : ReactJS</p>
+                        </div>
+                        <div className="links">
+                            <div className="site">
+                              <Button disabled={!this.state.value} className="backgroundImg" onClick={() => window.open('https://ruiteng2021.github.io/recipe/')}>Site Demo</Button>
+                            </div>                          
+                            <p>
+                              <a>Under Construction</a>
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="scene">
+                      <div className="project">
+                        <div className="title">
+                          <p>Project Name: Computer Shop</p>
+                          <p>Created with : PHP</p>
+                        </div>
+                        <div className="links">
+                            <div className="site">
+                              <Button className="backgroundImg computershop" onClick={() => window.open('https://computershop01.000webhostapp.com/')}>Site Demo</Button>
+                            </div>                          
+                            <p>
+                              <a href="https://github.com/ruiteng2021/shoppingcart" target="_blank">Source Code</a>                    
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="scene">
+                      <div className="project">
+                        <div className="title">
+                          <p>Project Name: Business Notes</p>
+                          <p>Created with : IOS/Swift</p>
+                        </div>
+                        <div className="links">
+                            <div className="site">
+                              <Button className="backgroundImg businessnotes" onClick={() => window.open('#/Ios')}>Site Demo</Button>
+                            </div>                          
+                            <p>
+                              <a>Under Construction</a>          
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="scene">
+                      <div className="project">
+                        <div className="title">
+                          <p>Project Name: TV Maven</p>
+                          <p>Created with : Python/Django</p>
+                        </div>
+                        <div className="links">
+                            <div className="site">
+                              <Button className="backgroundImg tvmaven" onClick={() => window.open('https://moviemicheroku.herokuapp.com/')}>Site Demo</Button>
+                            </div>                          
+                            <p>
+                              <a href="https://github.com/ruiteng2021/MovieMic" target="_blank">Source Code</a>     
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="scene">
+                      <div className="project">
+                        <div className="title">
+                          <p>Project Name: TVNinja</p>
+                          <p>Created with : Dotnet core5.0 BazorWASM</p>
+                        </div>
+                        <div className="links">
+                            <div className="site">
+                              <Button className="backgroundImg tvninja" onClick={() => window.open('https://tvninjawasm.web.app/')}>Site Demo</Button>
+                            </div>                          
+                            <p>
+                              <a href="https://github.com/ruiteng2021/MovieNinjaWASM" target="_blank">Source Code</a>     
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="scene">
+                      <div className="project">
+                        <div className="title">
+                          <p>Project Name: CryptoCanuck</p>
+                          <p>Created with : Dotnet core5.0 Razor</p>
+                        </div>
+                        <div className="links">
+                            <div className="site">
+                              <Button disabled={!this.state.value} className="backgroundImg cryptocanuck" onClick={() => window.open('https://tvninjawasm.web.app/')}>Site Demo</Button>
+                            </div>                          
+                            <p>
+                              <a href="https://github.com/triosdevelopers/CryptoCanuck" target="_blank">Source Code</a>     
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
               </div>
             </div>
           </div>
         </section>
        
+        <section className="container">
+          <div className="row">
+            <div className="col-md-8 col-sm-12">
+              <div className="experience">
+                <h2 className="white">School Project Apps</h2>
+                <div className="experience-content">
+
+                  <div className="scene">
+                      <div className="project">
+                        <div className="title easylivingposter">
+                          <p style={{paddingTop: '25px'}}>Project Name: EasyLiving</p>
+                        </div>
+                        <div className="links">
+                            <div className="site">
+                              <Button className="backgroundImg easyliving" onClick={() => window.open('https://play.google.com/store/apps/details?id=com.trios.EasyLiving')}>Site Demo</Button>
+                            </div>                          
+                            <p>
+                              <a href="https://github.com/ruiteng2021/EasyLiving" target="_blank">Source Code</a>     
+                            </p>
+                        </div>
+                      </div>
+                  </div>
+
+                  <div className="scene">
+                      <div className="project">
+                        <div className="title smrtposter">
+                          <p style={{color: '#fff'}}>Project Name: Stock Analyse</p>
+                        </div>
+                        <div className="links">
+                            <div className="site">
+                              <Button className="backgroundImg smrt" onClick={() => window.open('https://play.google.com/store/apps/details?id=com.trios.smrt')}>Site Demo</Button>
+                            </div>                          
+                            <p>
+                              <a href="https://github.com/ruiteng2021/SMRT" target="_blank">Source Code</a>     
+                            </p>
+                        </div>
+                      </div>
+                  </div>
+
+                  <div className="scene">
+                      <div className="project">
+                        <div className="title gradtrackerposter">      
+                          <p style={{paddingTop: '10px'}}>Project Name: Grade Tracker</p>          
+                        </div>
+                        <div className="links">
+                            <div className="site">
+                              <Button className="backgroundImg gradtracker" onClick={() => window.open('https://play.google.com/store/apps/details?id=com.trios.gradetracker')}>Site Demo</Button>
+                            </div>                                             
+                            <p>
+                              <a href="https://github.com/ruiteng2021/GradeTracker" target="_blank">Source Code</a>
+                            </p>
+                        </div>
+                      </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-12">
+              <div className="languages">
+                <h2>Hacker Rank Badges</h2>
+                  <div className="site">
+                    <Button className="backgroundImg hackerrank" onClick={() => window.open('https://www.hackerrank.com/tengrui13?hr_r=1')}></Button>
+                  </div> 
+              </div>
+            </div>
+          </div>
+        </section>
+
+
         <footer>
           <div className="container">
             <div className="row">
