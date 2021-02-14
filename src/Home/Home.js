@@ -37,7 +37,7 @@ export default class Home extends Component {
             </div>
             <div className="col-md-6 col-sm-12">
               <div className="skills">
-                <h5 className="white">Programming languages learned from triOS</h5>
+                <h5 className="white">Skills and Technology</h5>
                 <strong>C/C++</strong>
                 <span className="float-right">Done</span>
                   <div className="progress">
