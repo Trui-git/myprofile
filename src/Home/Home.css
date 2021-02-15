@@ -378,6 +378,18 @@ project links information
   background-image: url(../images/warsim.png);
 }
 
+.supershopping{
+  background-image: url(../images/supershopping.png);
+}
+
+.recipe{
+  background-image: url(../images/recipe.png);
+}
+
+.petwalk{
+  background-image: url(../images/petwalk.png);
+}
+
 .computershop{
   background-image: url(../images/computershop.png);
 }

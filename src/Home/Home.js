@@ -171,7 +171,7 @@ export default class Home extends Component {
                               <Button className="backgroundImg aqurium" onClick={() => window.open('#/Aquarium')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              <a href="https://github.com/ruiteng2021/myprofile/tree/master/src" target="_blank">Source Code</a>
+                              <a href="https://github.com/ruiteng2021/myprofile/tree/master/src" target="_blank" rel="noopener noreferrer">Source Code</a>
                             </p>
                         </div>
                       </div>
@@ -188,7 +188,7 @@ export default class Home extends Component {
                               <Button className="backgroundImg game" onClick={() => window.open('https://rui-javascript.netlify.app')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              <a>Under Construction</a>
+                              <a href="https://github.com/ruiteng2021/JavascriptGame" target="_blank" rel="noopener noreferrer">Source Code</a>
                             </p>
                         </div>
                       </div>
@@ -205,7 +205,7 @@ export default class Home extends Component {
                               <Button className="backgroundImg warsim" onClick={() => window.open('#/Java')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              <a>Under Construction</a>
+                              <a href="https://github.com/ruiteng2021/WarSimulator" target="_blank" rel="noopener noreferrer">Source Code</a>
                             </p>
                         </div>
                       </div>
@@ -214,15 +214,15 @@ export default class Home extends Component {
                     <div className="scene">
                       <div className="project">
                         <div className="title">
-                          <p>Project Name: Shopping Cart</p>
+                          <p>Project Name: Super Shopping Cart</p>
                           <p>Created with : C/C++</p>
                         </div>
                         <div className="links">
                             <div className="site">
-                              <Button disabled={!this.state.value} className="backgroundImg" onClick={() => window.open('#/Java')}>Site Demo</Button>
+                              <Button className="backgroundImg supershopping" onClick={() => window.open('#/Cpp')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              <a>Under Construction</a>
+                              <a href="https://github.com/ruiteng2021/SperShopping" target="_blank" rel="noopener noreferrer">Source Code</a>
                             </p>
                         </div>
                       </div>
@@ -236,10 +236,10 @@ export default class Home extends Component {
                         </div>
                         <div className="links">
                             <div className="site">
-                              <Button disabled={!this.state.value} className="backgroundImg" onClick={() => window.open('https://petwalksite20200506100905.azurewebsites.net/')}>Site Demo</Button>
+                              <Button className="backgroundImg petwalk" onClick={() => window.open('#/Sql')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              <a>Under Construction</a>
+                              <a href="https://github.com/ruiteng2021/PetWalk" target="_blank" rel="noopener noreferrer">Source Code</a>  
                             </p>
                         </div>
                       </div>
@@ -304,10 +304,10 @@ export default class Home extends Component {
                         </div>
                         <div className="links">
                             <div className="site">
-                              <Button disabled={!this.state.value} className="backgroundImg" onClick={() => window.open('https://ruiteng2021.github.io/recipe/')}>Site Demo</Button>
+                              <Button className="backgroundImg recipe" onClick={() => window.open('https://ruiteng2021.github.io/recipe/')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              <a>Under Construction</a>
+                              <a href="https://github.com/ruiteng2021/recipe" target="_blank" rel="noopener noreferrer">Source Code</a>                              
                             </p>
                         </div>
                       </div>
