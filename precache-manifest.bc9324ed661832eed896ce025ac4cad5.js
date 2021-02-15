@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0cb69130556e4b95bcab626a030cd8b7",
+    "revision": "03062a9d8a15e58e757c2b6daac8e225",
     "url": "/myprofile/index.html"
   },
   {
-    "revision": "3de0641e43cc2498ad9a",
+    "revision": "483a99eed944dea26cdf",
     "url": "/myprofile/static/css/2.da930a91.chunk.css"
   },
   {
-    "revision": "ba23436668e04fb46d0b",
-    "url": "/myprofile/static/css/main.baa201a3.chunk.css"
+    "revision": "78a6d464e463ff16286f",
+    "url": "/myprofile/static/css/main.e5a8defb.chunk.css"
   },
   {
-    "revision": "3de0641e43cc2498ad9a",
-    "url": "/myprofile/static/js/2.1aa87c3a.chunk.js"
+    "revision": "483a99eed944dea26cdf",
+    "url": "/myprofile/static/js/2.5728bab6.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/myprofile/static/js/2.1aa87c3a.chunk.js.LICENSE.txt"
+    "url": "/myprofile/static/js/2.5728bab6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ba23436668e04fb46d0b",
-    "url": "/myprofile/static/js/main.5bb3c2a1.chunk.js"
+    "revision": "78a6d464e463ff16286f",
+    "url": "/myprofile/static/js/main.dacdcccd.chunk.js"
   },
   {
     "revision": "08ba8f7ccfd4ed27688e",
@@ -78,6 +78,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9cb914f51e69f359616c00a75a31b30a",
     "url": "/myprofile/static/media/easylivingposter.9cb914f5.png"
+  },
+  {
+    "revision": "2980083682e94d33a66eef2e7d612519",
+    "url": "/myprofile/static/media/fontawesome-webfont.29800836.svg"
+  },
+  {
+    "revision": "706450d7bba6374ca02fe167d86685cb",
+    "url": "/myprofile/static/media/fontawesome-webfont.706450d7.ttf"
+  },
+  {
+    "revision": "97493d3f11c0a3bd5cbd959f5d19b699",
+    "url": "/myprofile/static/media/fontawesome-webfont.97493d3f.woff2"
+  },
+  {
+    "revision": "d9ee23d59d0e0e727b51368b458a0bff",
+    "url": "/myprofile/static/media/fontawesome-webfont.d9ee23d5.woff"
+  },
+  {
+    "revision": "f7c2b4b747b1a225eb8dee034134a1b0",
+    "url": "/myprofile/static/media/fontawesome-webfont.f7c2b4b7.eot"
   },
   {
     "revision": "043ace6915329eb873288145b303592b",
