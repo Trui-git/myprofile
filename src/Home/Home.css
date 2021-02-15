@@ -445,3 +445,8 @@ project links information
   background-image: url(../images/hackerrank.png);
   height: 100px;
 }
+
+.myicons{
+  font-size: 25px !important;
+  color: #000;
+}
