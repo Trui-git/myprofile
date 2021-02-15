@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Button  } from 'react-bootstrap';
-import history from './../history';
+//import history from './../history';
 import "./Home.css";
 import photo from './../images/TCBTH1535551.jpg';
 //import './../fonts/font-awesome.min.css';
@@ -290,7 +290,7 @@ export default class Home extends Component {
                               <Button disabled={!this.state.value} className="backgroundImg" onClick={() => window.open('https://moviemaven00.azurewebsites.net/')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              <a>Under Construction</a>
+                              Under Construction
                             </p>
                         </div>
                       </div>
@@ -324,7 +324,7 @@ export default class Home extends Component {
                               <Button className="backgroundImg computershop" onClick={() => window.open('https://computershop01.000webhostapp.com/')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              <a href="https://github.com/ruiteng2021/shoppingcart" target="_blank">Source Code</a>                    
+                              <a href="https://github.com/ruiteng2021/shoppingcart" target="_blank" rel="noopener noreferrer">Source Code</a>                    
                             </p>
                         </div>
                       </div>
@@ -341,7 +341,7 @@ export default class Home extends Component {
                               <Button className="backgroundImg businessnotes" onClick={() => window.open('#/Ios')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              <a>Under Construction</a>          
+                              Under Construction          
                             </p>
                         </div>
                       </div>
@@ -392,7 +392,7 @@ export default class Home extends Component {
                               <Button className="backgroundImg crypto" onClick={() => window.open('#/Crypto')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              <a href="https://github.com/triosdevelopers/CryptoCanuck" target="_blank">Source Code</a>     
+                              <a href="https://github.com/triosdevelopers/CryptoCanuck" target="_blank" rel="noopener noreferrer">Source Code</a>     
                             </p>
                         </div>
                       </div>
@@ -421,7 +421,7 @@ export default class Home extends Component {
                               <Button className="backgroundImg easyliving" onClick={() => window.open('https://play.google.com/store/apps/details?id=com.trios.EasyLiving')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              <a href="https://github.com/ruiteng2021/EasyLiving" target="_blank">Source Code</a>     
+                              <a href="https://github.com/ruiteng2021/EasyLiving" target="_blank" rel="noopener noreferrer">Source Code</a>     
                             </p>
                         </div>
                       </div>
@@ -437,7 +437,7 @@ export default class Home extends Component {
                               <Button className="backgroundImg smrt" onClick={() => window.open('https://play.google.com/store/apps/details?id=com.trios.smrt')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              <a href="https://github.com/ruiteng2021/SMRT" target="_blank">Source Code</a>     
+                              <a href="https://github.com/ruiteng2021/SMRT" target="_blank" rel="noopener noreferrer">Source Code</a>     
                             </p>
                         </div>
                       </div>
@@ -453,7 +453,7 @@ export default class Home extends Component {
                               <Button className="backgroundImg gradtracker" onClick={() => window.open('https://play.google.com/store/apps/details?id=com.trios.gradetracker')}>Site Demo</Button>
                             </div>                                             
                             <p>
-                              <a href="https://github.com/ruiteng2021/GradeTracker" target="_blank">Source Code</a>
+                              <a href="https://github.com/ruiteng2021/GradeTracker" target="_blank" rel="noopener noreferrer">Source Code</a>
                             </p>
                         </div>
                       </div>
