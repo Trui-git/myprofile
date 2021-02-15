@@ -154,9 +154,11 @@ export default class Home extends Component {
                   <p><i className="fa fa-map-marker"></i>577 Third Street, Lonsdon, ON, Canada</p>
                   <p><i className="fa fa-phone"></i> +1-519-318-8348</p>
                   <p><a className="fa fa-envelope" href="mailto:rui.teng@triosstudent.com"> rui.teng@triosstudent.com </a></p>
+                  <br/>
                   <a class="fa fa-youtube myicons" aria-hidden="false" href="https://www.youtube.com/channel/UCHQamrGS3aH8lUCdrK4qlWw/featured" target="_blank" rel="noopener noreferrer" ></a>
                   <a class="fa fa-github myicons" aria-hidden="false" href="https://github.com/ruiteng2021" target="_blank" rel="noopener noreferrer"></a>
-                  <a class="fa  fa-h-square myicons" href="https://www.hackerrank.com/tengrui13?hr_r=1" target="_blank" rel="noopener noreferrer"></a>
+                  <a class="fa fa-h-square myicons" href="https://www.hackerrank.com/tengrui13?hr_r=1" target="_blank" rel="noopener noreferrer"></a>
+                  <a class="fa fa-linkedin-square myicons" href="https://www.linkedin.com/in/rui-teng-b432151a5/" target="_blank" rel="noopener noreferrer"></a>
               </div>
             </div>
             <div className="col-md-8 col-sm-12">
