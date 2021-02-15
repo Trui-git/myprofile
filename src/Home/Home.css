@@ -402,11 +402,15 @@ project links information
   background-image: url(../images/tvmaven.png);
 }
 
+.moviemaven{
+  background-image: url(../images/moviemaven.png);
+}
+
 .tvninja{
   background-image: url(../images/tvninja.png);
 }
 
-.cryptocanuck{
+.crypto{
   background-image: url(../images/cryptocanuck.png);
 }
 

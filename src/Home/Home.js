@@ -253,10 +253,10 @@ export default class Home extends Component {
                         </div>
                         <div className="links">
                             <div className="site">
-                              <Button disabled={!this.state.value} className="backgroundImg" onClick={() => window.open('https://moviemaven00.azurewebsites.net/')}>Site Demo</Button>
+                              <Button className="backgroundImg moviemaven" onClick={() => window.open('#/Csharp')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              <a>Under Construction</a>
+                              <a href="https://github.com/ruiteng2021/MovieMaven" target="_blank" rel="noopener noreferrer">Source Code</a>  
                             </p>
                         </div>
                       </div>
@@ -358,7 +358,7 @@ export default class Home extends Component {
                               <Button className="backgroundImg tvmaven" onClick={() => window.open('https://moviemicheroku.herokuapp.com/')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              <a href="https://github.com/ruiteng2021/MovieMic" target="_blank">Source Code</a>     
+                              <a href="https://github.com/ruiteng2021/MovieMic" target="_blank" rel="noopener noreferrer">Source Code</a>     
                             </p>
                         </div>
                       </div>
@@ -375,7 +375,7 @@ export default class Home extends Component {
                               <Button className="backgroundImg tvninja" onClick={() => window.open('https://tvninjawasm.web.app/')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              <a href="https://github.com/ruiteng2021/MovieNinjaWASM" target="_blank">Source Code</a>     
+                              <a href="https://github.com/ruiteng2021/MovieNinjaWASM" target="_blank" rel="noopener noreferrer">Source Code</a>     
                             </p>
                         </div>
                       </div>
@@ -389,7 +389,7 @@ export default class Home extends Component {
                         </div>
                         <div className="links">
                             <div className="site">
-                              <Button disabled={!this.state.value} className="backgroundImg cryptocanuck" onClick={() => window.open('https://tvninjawasm.web.app/')}>Site Demo</Button>
+                              <Button className="backgroundImg crypto" onClick={() => window.open('#/Crypto')}>Site Demo</Button>
                             </div>                          
                             <p>
                               <a href="https://github.com/triosdevelopers/CryptoCanuck" target="_blank">Source Code</a>     

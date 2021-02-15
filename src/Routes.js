@@ -5,6 +5,8 @@ import Java from "./Java/Java";
 import Cpp from "./Cpp/Cpp";
 import Ios from "./Ios/Ios";
 import Sql from "./Sql/Sql";
+import Crypto from "./Crypto/Crypto";
+import Csharp from "./Csharp/Csharp";
 import Aquarium from "./Aquarium/Aquarium";
 import Works from "./Work/Works";
 import Home from "./Home/Home";
@@ -17,6 +19,8 @@ export default class Routes extends Component {
                 <Switch>
                     <Route path="/Java" component={Java} />
                     <Route path="/Cpp" component={Cpp} />
+                    <Route path="/Crypto" component={Crypto} />
+                    <Route path="/Csharp" component={Csharp} />
                     <Route path="/Sql" component={Sql} />
                     <Route path="/Ios" component={Ios} />
                     <Route path="/Aquarium" component={Aquarium} />
