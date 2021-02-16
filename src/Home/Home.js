@@ -259,7 +259,7 @@ export default class Home extends Component {
                         </div>
                         <div className="links">
                             <div className="site">
-                              <Button className="backgroundImg moviemaven" onClick={() => window.open('#/Csharp')}>Site Demo</Button>
+                              <Button className="backgroundImg moviemaven" onClick={() => window.open('https://moviemaven.azurewebsites.net/')}>Site Demo</Button>
                             </div>                          
                             <p>
                               <a href="https://github.com/ruiteng2021/MovieMaven" target="_blank" rel="noopener noreferrer">Source Code</a>  
