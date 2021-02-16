@@ -395,7 +395,7 @@ export default class Home extends Component {
                         </div>
                         <div className="links">
                             <div className="site">
-                              <Button className="backgroundImg crypto" onClick={() => window.open('#/Crypto')}>Site Demo</Button>
+                              <Button className="backgroundImg crypto" onClick={() => window.open('https://cryptocanuck.azurewebsites.net/')}>Site Demo</Button>
                             </div>                          
                             <p>
                               <a href="https://github.com/triosdevelopers/CryptoCanuck" target="_blank" rel="noopener noreferrer">Source Code</a>     
