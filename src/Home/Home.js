@@ -3,7 +3,7 @@ import { Button  } from 'react-bootstrap';
 //import history from './../history';
 import "./Home.css";
 import photo from './../images/TCBTH1535551.jpg';
-import hacker from './../images/hackerrankicon.png';
+//import hacker from './../images/hackerrankicon.png';
 import './../fonts/font-awesome.min.css';
 
 export default class Home extends Component {
@@ -154,6 +154,7 @@ export default class Home extends Component {
                   <p><i className="fa fa-map-marker"></i>577 Third Street, Lonsdon, ON, Canada</p>
                   <p><i className="fa fa-phone"></i> +1-519-318-8348</p>
                   <p><a className="fa fa-envelope" href="mailto:rui.teng@triosstudent.com"> rui.teng@triosstudent.com </a></p>
+                  <p><a className="fa fa-envelope" href="mailto:tengrui13@gmail.com"> tengrui13@gmail.com </a></p>
                   <br/>
                   <a class="fa fa-youtube myicons" aria-hidden="false" href="https://www.youtube.com/channel/UCHQamrGS3aH8lUCdrK4qlWw/featured" target="_blank" rel="noopener noreferrer" ></a>
                   <a class="fa fa-github myicons" aria-hidden="false" href="https://github.com/ruiteng2021" target="_blank" rel="noopener noreferrer"></a>
@@ -279,7 +280,7 @@ export default class Home extends Component {
                               <Button disabled={!this.state.value} className="backgroundImg" onClick={() => window.open('https://moviemaven00.azurewebsites.net/')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              <a>Under Construction</a>
+                              Under Construction
                             </p>
                         </div>
                       </div>
@@ -347,7 +348,7 @@ export default class Home extends Component {
                               <Button className="backgroundImg businessnotes" onClick={() => window.open('#/Ios')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              Under Construction          
+                              <a href="https://github.com/ruiteng2021/MeetingNotes2" target="_blank" rel="noopener noreferrer">Source Code</a>                        
                             </p>
                         </div>
                       </div>
