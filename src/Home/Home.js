@@ -93,19 +93,25 @@ export default class Home extends Component {
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
                                 aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
                   </div>
+                <strong>iPhone Development</strong>
+                <span className="float-right">Done</span>
+                  <div className="progress">
+                    <div className="progress-bar progress-bar-primary" role="progressbar" 
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
+                  </div>
                 <strong>C#/ASP.NET</strong>
                 <span className="float-right">Done</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
                                 aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
                   </div>
-                  <strong>Linux and Apache</strong>
+                <strong>Advanced Web technologies</strong>
                 <span className="float-right">On Going</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
                                 aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
                   </div>
-                <strong>iPhone Development</strong>
+                  <strong>Linux and Apache</strong>
                 <span className="float-right">On Going</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
