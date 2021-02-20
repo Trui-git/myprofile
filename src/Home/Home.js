@@ -94,7 +94,7 @@ export default class Home extends Component {
                                 aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
                   </div>
                 <strong>C#/ASP.NET</strong>
-                <span className="float-right">On Going</span>
+                <span className="float-right">Done</span>
                   <div className="progress">
                     <div className="progress-bar progress-bar-primary" role="progressbar" 
                                 aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
