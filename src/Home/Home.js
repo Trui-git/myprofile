@@ -283,7 +283,7 @@ export default class Home extends Component {
                         </div>
                         <div className="links">
                             <div className="site">
-                              <Button disabled={!this.state.value} className="backgroundImg adobe" onClick={() => window.open('https://moviemaven00.azurewebsites.net/')}>Site Demo</Button>
+                              <Button className="backgroundImg adobe" onClick={() => window.open('#/Photoshop')}>Site Demo</Button>
                             </div>                          
                             <p>
                               N/A
@@ -300,7 +300,7 @@ export default class Home extends Component {
                         </div>
                         <div className="links">
                             <div className="site">
-                              <Button disabled={!this.state.value} className="backgroundImg illustrator" onClick={() => window.open('https://moviemaven00.azurewebsites.net/')}>Site Demo</Button>
+                              <Button className="backgroundImg illustrator" onClick={() => window.open('#/Illustrator')}>Site Demo</Button>
                             </div>                          
                             <p>
                               N/A

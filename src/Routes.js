@@ -7,6 +7,8 @@ import Ios from "./Ios/Ios";
 import Sql from "./Sql/Sql";
 import Crypto from "./Crypto/Crypto";
 import Csharp from "./Csharp/Csharp";
+import Photoshop from "./Photoshop/Photoshop";
+import Illustrator from "./Illustrator/Illustrator";
 import Aquarium from "./Aquarium/Aquarium";
 import Works from "./Work/Works";
 import Home from "./Home/Home";
@@ -23,6 +25,8 @@ export default class Routes extends Component {
                     <Route path="/Csharp" component={Csharp} />
                     <Route path="/Sql" component={Sql} />
                     <Route path="/Ios" component={Ios} />
+                    <Route path="/Photoshop" component={Photoshop} />
+                    <Route path="/Illustrator" component={Illustrator} />
                     <Route path="/Aquarium" component={Aquarium} />
                     <Route path="/Works" component={Works} />       
                     <Route path="/" component={Home} />                               
