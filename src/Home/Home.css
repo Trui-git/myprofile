@@ -410,6 +410,14 @@ project links information
   background-image: url(../images/tvninja.png);
 }
 
+.adobe{
+  background-image: url(../images/photoshop.png);
+}
+
+.illustrator{
+  background-image: url(../images/illustrator.png);
+}
+
 .crypto{
   background-image: url(../images/cryptocanuck.png);
 }

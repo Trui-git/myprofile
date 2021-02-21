@@ -245,7 +245,7 @@ export default class Home extends Component {
                       <div className="project">
                         <div className="title">
                           <p>Project Name: Pet Walk</p>
-                          <p>Created with : Microsoft Razor/MSSQL</p>
+                          <p>Created with : Asp.net core5 Razor MSSQL</p>
                         </div>
                         <div className="links">
                             <div className="site">
@@ -262,7 +262,7 @@ export default class Home extends Component {
                       <div className="project">
                         <div className="title">
                           <p>Project Name: Movie Maven</p>
-                          <p>Created with : C#/Asp.net</p>
+                          <p>Created with : Asp.net core5 Razor</p>
                         </div>
                         <div className="links">
                             <div className="site">
@@ -283,10 +283,10 @@ export default class Home extends Component {
                         </div>
                         <div className="links">
                             <div className="site">
-                              <Button disabled={!this.state.value} className="backgroundImg" onClick={() => window.open('https://moviemaven00.azurewebsites.net/')}>Site Demo</Button>
+                              <Button disabled={!this.state.value} className="backgroundImg adobe" onClick={() => window.open('https://moviemaven00.azurewebsites.net/')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              Under Construction
+                              N/A
                             </p>
                         </div>
                       </div>
@@ -300,10 +300,10 @@ export default class Home extends Component {
                         </div>
                         <div className="links">
                             <div className="site">
-                              <Button disabled={!this.state.value} className="backgroundImg" onClick={() => window.open('https://moviemaven00.azurewebsites.net/')}>Site Demo</Button>
+                              <Button disabled={!this.state.value} className="backgroundImg illustrator" onClick={() => window.open('https://moviemaven00.azurewebsites.net/')}>Site Demo</Button>
                             </div>                          
                             <p>
-                              Under Construction
+                              N/A
                             </p>
                         </div>
                       </div>
@@ -381,7 +381,7 @@ export default class Home extends Component {
                       <div className="project">
                         <div className="title">
                           <p>Project Name: TVNinja</p>
-                          <p>Created with : Dotnet core5.0 BazorWASM</p>
+                          <p>Created with : Asp.net core5 BazorWASM</p>
                         </div>
                         <div className="links">
                             <div className="site">
@@ -398,7 +398,7 @@ export default class Home extends Component {
                       <div className="project">
                         <div className="title">
                           <p>Project Name: CryptoCanuck</p>
-                          <p>Created with : Dotnet core5.0 Razor</p>
+                          <p>Created with : Asp.net core5 Razor</p>
                         </div>
                         <div className="links">
                             <div className="site">
