@@ -157,7 +157,7 @@ export default class Home extends Component {
             <div className="col-md-4 col-sm-12">
               <div className="contact">
                 <h2>Contact</h2>
-                  <p><i className="fa fa-map-marker"></i>577 Third Street, Lonsdon, ON, Canada</p>
+                  <p><i className="fa fa-map-marker"></i>577 Third Street, London, ON, Canada</p>
                   <p><i className="fa fa-phone"></i> +1-519-318-8348</p>
                   <p><a className="fa fa-envelope" href="mailto:rui.teng@triosstudent.com"> rui.teng@triosstudent.com </a></p>
                   <p><a className="fa fa-envelope" href="mailto:tengrui13@gmail.com"> tengrui13@gmail.com </a></p>
